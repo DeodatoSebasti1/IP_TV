@@ -4,12 +4,6 @@
 # --- Angola ---
 #EXTINF:-1 tvg-id="TVZimbo.ao@SD" tvg-logo="https://i.imgur.com/SFD8CBh.png" group-title="Angola/TV",TV Zimbo
 https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="TPA1.ao" tvg-logo="https://tpaonline.ao/logo.png" group-title="Angola/YouTube",TPA1
-https://www.youtube.com/@TPA_OFICIAL/streams
-#EXTINF:-1 tvg-id="TVGirassol.ao" tvg-logo="https://redegirassol.com//abuploads/2022/08/logo.png" group-title="Angola/TV",TV Girassol
-https://redegirassol.com/tv/
-#EXTINF:-1 tvg-id="PalancaTV.ao" tvg-logo="https://example.com/logos/PalancaTV.png" group-title="Angola/YouTube",Palanca TV
-https://www.youtube.com/@palancatv2606/streams
 
 # --- Portugal ---
 #EXTINF:-1 tvg-id="RTP1.pt@HD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png" group-title="Portugal/General",RTP 1
