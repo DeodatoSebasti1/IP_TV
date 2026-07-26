@@ -1,0 +1,39 @@
+#EXTM3U
+# Playlist oficial/base para fontes brasileiras de futebol
+# Alguns itens são páginas oficiais e podem precisar do verificador para extrair o stream direto.
+
+#EXTINF:-1 group-title="Brasil/Futebol",CazéTV
+https://www.youtube.com/cazetv
+
+#EXTINF:-1 group-title="Brasil/Futebol",CBF TV
+https://www.youtube.com/channel/UCSCfyR5KTOPhjkp1DwQsKGw
+
+#EXTINF:-1 group-title="Brasil/Futebol",TNT Sports Brasil
+https://www.youtube.com/channel/UCs-6sCz2LJm1PrWQN4ErsPw
+
+#EXTINF:-1 group-title="Brasil/Futebol",ge tv
+https://www.youtube.com/channel/UCgCKagVhzGnZcuP9bSMgMCg
+
+#EXTINF:-1 group-title="Brasil/Futebol",TV Brasil
+https://tvbrasil.ebc.com.br/
+
+#EXTINF:-1 group-title="Brasil/Futebol",TV Brasil - Ao Vivo
+https://tvbrasil.ebc.com.br/tags/ao-vivo
+
+#EXTINF:-1 group-title="Brasil/Futebol",TV Brasil - Brasileirão Série D
+https://tvbrasil.ebc.com.br/brasileiraoseried
+
+#EXTINF:-1 group-title="Brasil/Futebol",TV Brasil - Brasileirão Série B 2024
+https://tvbrasil.ebc.com.br/brasileirao-serie-b/2024/04/brasileirao-serie-b-2024-assista-ao-vivo-na-tv-brasil
+
+#EXTINF:-1 group-title="Brasil/Futebol",Band Ao Vivo
+https://www.band.uol.com.br/ao-vivo
+
+#EXTINF:-1 group-title="Brasil/Futebol",Esportes Band
+https://esporte.band.uol.com.br/
+
+#EXTINF:-1 group-title="Brasil/Futebol",Globoplay - sportv
+https://globoplay.globo.com/categorias/sportv/
+
+#EXTINF:-1 group-title="Brasil/Futebol",Globoplay - Campeonato Brasileiro
+https://globoplay.globo.com/categorias/campeonato-brasileiro/
