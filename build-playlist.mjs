@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { readFile, writeFile } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 
 const repoRoot = process.cwd();
@@ -135,6 +136,10 @@ function normalize(text) {
     .trim();
 }
 
+function isYouTubeUrl(url) {
+  return /(^|\.)(youtube\.com|youtu\.be)$/i.test(new URL(url).hostname);
+}
+
 function displayName(rawName) {
   return rawName.replace(/\s*\((?:\d{2,4}p|hd|sd|fhd|uhd|\d+i)\)\s*/gi, ' ').replace(/\s+/g, ' ').trim();
 }
@@ -206,12 +211,30 @@ function parsePlaylist(text) {
       logo: attrs['tvg-logo'] || '',
       rawExtinf: info,
       tvgId: attrs['tvg-id'] || '',
+      sourceUrl: trimmed,
       url: trimmed,
     });
     current = null;
   }
 
   return items;
+}
+
+function resolvePlayableUrl(url) {
+  if (!isYouTubeUrl(url)) return url;
+
+  try {
+    const output = execFileSync(
+      'yt-dlp',
+      ['-g', '--no-playlist', '--no-warnings', '-f', 'best[protocol^=m3u8]/best', url],
+      { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] },
+    ).trim();
+
+    const candidate = output.split(/\r?\n/).find((line) => /^https?:\/\//i.test(line));
+    return candidate || url;
+  } catch {
+    return url;
+  }
 }
 
 function classify(item) {
@@ -298,6 +321,7 @@ function writeM3U(items) {
       'tvg-logo': logo,
       'group-title': item.section,
     };
+    const streamUrl = item.playableUrl || item.url;
     const extinf =
       `#EXTINF:-1 ${Object.entries(attrs)
         .filter(([, value]) => value !== undefined && value !== null && value !== '')
@@ -305,7 +329,7 @@ function writeM3U(items) {
         .join(' ')},${item.displayName}`;
     lines.push(extinf);
     for (const directive of item.directives) lines.push(directive);
-    lines.push(item.url);
+    lines.push(streamUrl);
   }
 
   return `${lines.join('\n')}\n`;
@@ -476,7 +500,7 @@ function buildInteractiveHtml(data) {
       const activeChip = document.querySelector('.chip.active')?.dataset.section || 'All';
 
       return data.filter(item => {
-        const hay = [item.displayName, item.section, item.region, item.category, item.tvgId, item.url].join(' ').toLowerCase();
+        const hay = [item.displayName, item.section, item.region, item.category, item.tvgId, item.url, item.sourceUrl, item.playableUrl].join(' ').toLowerCase();
         if (query && !hay.includes(query)) return false;
         if (region !== 'All' && item.region !== region) return false;
         if (category !== 'All' && item.category !== category) return false;
@@ -505,10 +529,10 @@ function buildInteractiveHtml(data) {
               </div>
               <div>\${item.region}</div>
               <div>\${item.category}</div>
-              <div class="muted">\${item.url}</div>
+              <div class="muted">\${item.sourceUrl || item.url}</div>
               <div style="display:flex;gap:8px;flex-wrap:wrap">
-                <a class="btn" href="\${item.url}" target="_blank" rel="noreferrer">Abrir</a>
-                <button class="btn copy" data-url="\${item.url}">Copiar</button>
+                <a class="btn" href="\${item.playableUrl || item.url}" target="_blank" rel="noreferrer">Abrir</a>
+                <button class="btn copy" data-url="\${item.playableUrl || item.url}">Copiar</button>
               </div>
             </div>
           \`).join('')}
@@ -544,14 +568,23 @@ function buildInteractiveHtml(data) {
 
 async function main() {
   const sourceText = await readFile(sourcePath, 'utf8');
-  const parsed = parsePlaylist(sourceText).map(classify);
+  const parsed = parsePlaylist(sourceText).map((item) => {
+    const playableUrl = resolvePlayableUrl(item.url);
+    return classify({
+      ...item,
+      playableUrl,
+      isPlayable: !isYouTubeUrl(item.url) || playableUrl !== item.url,
+    });
+  });
 
   const seenUrls = new Set();
   const selected = [];
   for (const item of parsed.sort((left, right) => right.score - left.score || left.displayName.localeCompare(right.displayName))) {
     if (item.score < 3) continue;
-    if (seenUrls.has(item.url)) continue;
-    seenUrls.add(item.url);
+    if (!item.isPlayable) continue;
+    const dedupeUrl = item.playableUrl || item.url;
+    if (seenUrls.has(dedupeUrl)) continue;
+    seenUrls.add(dedupeUrl);
     selected.push(item);
     if (selected.length >= TARGET_COUNT) break;
   }
