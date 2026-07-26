@@ -1,0 +1,177 @@
+#EXTM3U
+# Curated playlist for PT, BR, Angola, football, movies, kids, music and official YouTube fallbacks.
+
+# --- Angola ---
+#EXTINF:-1 tvg-id="TVZimbo.ao@SD" tvg-logo="https://i.imgur.com/SFD8CBh.png" group-title="Angola/TV",TV Zimbo
+https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="TPA1.ao" tvg-logo="https://tpaonline.ao/logo.png" group-title="Angola/YouTube",TPA1
+https://www.youtube.com/@TPA_OFICIAL/streams
+#EXTINF:-1 tvg-id="TVGirassol.ao" tvg-logo="https://redegirassol.com//abuploads/2022/08/logo.png" group-title="Angola/TV",TV Girassol
+https://redegirassol.com/tv/
+#EXTINF:-1 tvg-id="PalancaTV.ao" tvg-logo="https://example.com/logos/PalancaTV.png" group-title="Angola/YouTube",Palanca TV
+https://www.youtube.com/@palancatv2606/streams
+
+# --- Portugal ---
+#EXTINF:-1 tvg-id="RTP1.pt@HD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png" group-title="Portugal/General",RTP 1
+https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPNoticias.pt@SD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png" group-title="Portugal/News",RTP Noticias
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPAcores.pt@SD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png" group-title="Portugal/General",RTP Acores
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPMemoria.pt@SD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmemoria_2026.png" group-title="Portugal/Classic",RTP Memoria
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTP.pt@SD" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp_2026.png" group-title="Portugal/General",RTP
+https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8
+#EXTINF:-1 tvg-id="SICReplay.pt@SD" tvg-logo="https://i.imgur.com/8G9dO7M.png" group-title="Portugal/Entertainment",SIC Replay
+https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
+#EXTINF:-1 tvg-id="TVIFiccao.pt@SD" tvg-logo="https://i.imgur.com/jCGrjf5.png" group-title="Portugal/Series",TVI Ficcao
+https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvificcao.m3u8
+#EXTINF:-1 tvg-id="TVIReality.pt@SD" tvg-logo="https://i.imgur.com/jCGrjf5.png" group-title="Portugal/Series",TVI Reality
+https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvireality.m3u8
+#EXTINF:-1 tvg-id="SportTV.pt@SD" tvg-logo="https://i.imgur.com/0G5KqQO.png" group-title="Portugal/Sports",Sport TV
+http://178.124.179.122:8080/SportTV/mpegts
+#EXTINF:-1 tvg-id="SportTV1.pt@SD" tvg-logo="https://i.imgur.com/0G5KqQO.png" group-title="Portugal/Sports",Sport TV 1
+http://znty.dyndns.org:5010/hls/stv1.m3u8
+#EXTINF:-1 tvg-id="SportTV2.pt@SD" tvg-logo="https://i.imgur.com/0G5KqQO.png" group-title="Portugal/Sports",Sport TV 2
+http://znty.dyndns.org:5010/hls/stv2.m3u8
+#EXTINF:-1 tvg-id="SportTV5.pt@SD" tvg-logo="https://i.imgur.com/0G5KqQO.png" group-title="Portugal/Sports",Sport TV 5
+http://znty.dyndns.org:5010/hls/stv5.m3u8
+#EXTINF:-1 tvg-id="SportTV6.pt@SD" tvg-logo="https://i.imgur.com/0G5KqQO.png" group-title="Portugal/Sports",Sport TV 6
+http://zntx.dyndns.org:8085/hls/stv6.m3u8
+#EXTINF:-1 tvg-id="SportTV7.pt@SD" tvg-logo="https://i.imgur.com/0G5KqQO.png" group-title="Portugal/Sports",Sport TV 7
+http://zntx.dyndns.org:8085/hls/stv7.m3u8
+#EXTINF:-1 tvg-id="SportTVPlus.pt@SD" tvg-logo="https://i.imgur.com/0G5KqQO.png" group-title="Portugal/Sports",Sport TV Plus
+http://znty.dyndns.org:5010/hls/sportv+.m3u8
+#EXTINF:-1 tvg-id="Canal11.pt@SD" tvg-logo="https://i.imgur.com/1Jr5Ck8.png" group-title="Portugal/Sports",Canal 11
+https://d3mstgwjcwqz1y.cloudfront.net/ts:abr.m3u8
+
+# --- Brazil ---
+#EXTINF:-1 tvg-id="CazeTV.br@SD" tvg-logo="https://i.imgur.com/2C8Wz0q.png" group-title="Brasil/Futebol",CazeTV
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+#EXTINF:-1 tvg-id="TVBrasil.br@SD" tvg-logo="https://i.imgur.com/7rjCS5i.png" group-title="Brasil/General",TV Brasil
+http://45.162.64.114/TV_BRASIL/index.m3u8
+#EXTINF:-1 tvg-id="CanalGov.br@SD" tvg-logo="https://i.imgur.com/1XnP5i4.png" group-title="Brasil/News",Canal Gov
+https://canalgov-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="Band.br@SD" tvg-logo="https://i.imgur.com/EuPvzJe.png" group-title="Brasil/General",Band
+http://45.190.28.50/BAND_HD/index.m3u8
+#EXTINF:-1 tvg-id="BandSports.br@SD" tvg-logo="https://i.imgur.com/EuPvzJe.png" group-title="Brasil/Futebol",Band Sports
+http://143.14.178.40:7777/Band_Sports_HD/index.m3u8
+#EXTINF:-1 tvg-id="BandNews.br@SD" tvg-logo="https://i.ibb.co/0jVZBFp/u8ya-iw-R-400x400.jpg" group-title="Brasil/News",BandNews
+http://143.14.178.40:7777/Band_News_HD/index.m3u8
+#EXTINF:-1 tvg-id="Record.br@SD" tvg-logo="https://i.imgur.com/2n3Lx7o.png" group-title="Brasil/General",Record
+http://45.190.28.50/RECORD/index.m3u8
+#EXTINF:-1 tvg-id="RecordNews.br@SD" tvg-logo="https://i.imgur.com/2n3Lx7o.png" group-title="Brasil/News",Record News
+http://45.162.64.114/RECORD_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="SBTNacional.br@SD" tvg-logo="https://i.imgur.com/Zz5Zt1V.png" group-title="Brasil/General",SBT Nacional
+http://45.190.28.50/SBT_HD/index.m3u8
+#EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-logo="https://i.imgur.com/YJ2R0x4.png" group-title="Brasil/General",TV Cultura
+http://45.162.64.114/TV_CULTURA/index.m3u8
+#EXTINF:-1 tvg-id="TVGazeta.br@SD" tvg-logo="https://i.imgur.com/4o6KZkU.png" group-title="Brasil/General",TV Gazeta
+http://45.162.64.114/GAZETA/index.m3u8
+#EXTINF:-1 tvg-id="TVGloboRio.br@SD" tvg-logo="https://i.imgur.com/1m2mZcH.png" group-title="Brasil/General",TV Globo Rio
+http://45.190.28.50/GLOBO_HD/index.m3u8
+#EXTINF:-1 tvg-id="AmazonSat.br@SD" tvg-logo="https://i.imgur.com/7rjCS5i.png" group-title="Brasil/General",Amazon Sat
+https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+#EXTINF:-1 tvg-id="RCTVBrasil.br@SD" tvg-logo="https://i.imgur.com/2cX2W9w.png" group-title="Brasil/General",RCTV Brasil
+https://stmv.webtvninjas.com.br/rctv/rctv/playlist.m3u8
+#EXTINF:-1 tvg-id="ConecTVBrasil.br@SD" tvg-logo="https://i.imgur.com/XN6jjMR.png" group-title="Brasil/General",ConecTV Brasil
+https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
+#EXTINF:-1 tvg-id="GloboplayNovelas.br@SD" tvg-logo="https://i.imgur.com/1cE5QxS.png" group-title="Brasil/Series",Globoplay Novelas
+http://143.14.178.40:7777/Globoplay_Novelas_HD/index.m3u8
+
+# --- Brasil / Futebol e internacionais ---
+#EXTINF:-1 tvg-id="ESPN.br@SD" tvg-logo="https://i.imgur.com/9KJ5tVt.png" group-title="Brasil/Futebol",ESPN
+http://181.78.197.59:8000/play/a07z/index.m3u8
+#EXTINF:-1 tvg-id="ESPN4.br@SD" tvg-logo="https://i.imgur.com/9KJ5tVt.png" group-title="Brasil/Futebol",ESPN 4
+http://181.78.197.59:8000/play/a07n/index.m3u8
+#EXTINF:-1 tvg-id="FOXSports.br@SD" tvg-logo="https://i.imgur.com/3a8xQfH.png" group-title="Brasil/Futebol",FOX Sports
+https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports.m3u8
+#EXTINF:-1 tvg-id="ESPNDeportes.us@SD" tvg-logo="https://i.imgur.com/9KJ5tVt.png" group-title="Internacional/Futebol",ESPN Deportes
+http://40.160.24.58/ESPN_DEPORTES/index.m3u8
+#EXTINF:-1 tvg-id="PlutoTVEsportes.br@SD" tvg-logo="https://i.imgur.com/r2v3XxU.png" group-title="Brasil/Futebol",Pluto TV Esportes
+https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
+
+# --- Movies / series / cartoons ---
+#EXTINF:-1 tvg-id="PlutoTVCineClassicos.br@SD" tvg-logo="https://i.imgur.com/W1d7QdW.png" group-title="Movies",Pluto TV Cine Classicos
+https://jmp2.uk/plu-5fa1612a669ba0000702017b.m3u8
+#EXTINF:-1 tvg-id="PlutoTVClassicTV.br@SD" tvg-logo="https://i.imgur.com/W1d7QdW.png" group-title="Classic;Series",Pluto TV Classic TV
+https://jmp2.uk/plu-5d134a74ca91eedee1630faa.m3u8
+#EXTINF:-1 tvg-id="PlutoTVTelenovelasClasicas.br@SD" tvg-logo="https://i.imgur.com/W1d7QdW.png" group-title="Series",Pluto TV Telenovelas Clasicas
+https://jmp2.uk/plu-662a69daa0a74e00087a1c72.m3u8
+#EXTINF:-1 tvg-id="PlutoTVDesenhosClassicos.br@SD" tvg-logo="https://i.imgur.com/W1d7QdW.png" group-title="Kids/Animation",Pluto TV Desenhos Classicos
+https://jmp2.uk/plu-655e5c4d2c46f3000877a54b.m3u8
+#EXTINF:-1 tvg-id="PlutoTVKidsClassics.br@SD" tvg-logo="https://i.imgur.com/W1d7QdW.png" group-title="Kids/Animation",Pluto TV Kids Classics
+https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
+#EXTINF:-1 tvg-id="CartoonClassics.br@SD" tvg-logo="https://i.imgur.com/YkK2xUq.png" group-title="Kids/Animation",Cartoon Classics
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8
+#EXTINF:-1 tvg-id="NickelodeonClassics.br@SD" tvg-logo="https://i.imgur.com/YkK2xUq.png" group-title="Kids/Animation",Nickelodeon Classics
+https://jmp2.uk/plu-67f3eb800a1beb98767ca748.m3u8
+#EXTINF:-1 tvg-id="BabyTVLatinAmerica.br@SD" tvg-logo="https://i.imgur.com/YkK2xUq.png" group-title="Kids/Animation",BabyTV Latin America
+http://138.121.15.230:9002/BABY-TV/index.m3u8
+#EXTINF:-1 tvg-id="BabySharkTV.br@SD" tvg-logo="https://i.imgur.com/YkK2xUq.png" group-title="Kids/Animation",Baby Shark TV
+https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SolMusica.es@SD" tvg-logo="https://i.imgur.com/Kf4o5fI.png" group-title="Music",Sol Musica
+https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
+#EXTINF:-1 tvg-id="MusicBoxBrazil.br@SD" tvg-logo="https://i.imgur.com/Kf4o5fI.png" group-title="Music",Music Box Brazil
+http://143.14.178.40:7777/Music_Box_HD/index.m3u8
+#EXTINF:-1 tvg-id="BandamaxUSA.us@SD" tvg-logo="https://i.imgur.com/Kf4o5fI.png" group-title="Music",Bandamax USA
+http://177.234.249.135:8888/Bandamax/index.m3u8
+#EXTINF:-1 tvg-id="MTVClassic.us@SD" tvg-logo="https://i.imgur.com/Kf4o5fI.png" group-title="Music",MTV Classic
+http://206.212.244.63/117/index.m3u8
+#EXTINF:-1 tvg-id="BIZMusic.br@SD" tvg-logo="https://i.imgur.com/Kf4o5fI.png" group-title="Music",BIZ Music
+https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8
+
+# --- Official YouTube / live fallbacks ---
+#EXTINF:-1 tvg-id="CBFTV.br" tvg-logo="https://i.imgur.com/1XnP5i4.png" group-title="Brasil/YouTube",CBF TV
+https://www.youtube.com/channel/UCSCfyR5KTOPhjkp1DwQsKGw
+#EXTINF:-1 tvg-id="TNTSportsBrasil.br" tvg-logo="https://i.imgur.com/1XnP5i4.png" group-title="Brasil/YouTube",TNT Sports Brasil
+https://www.youtube.com/channel/UCs-6sCz2LJm1PrWQN4ErsPw
+#EXTINF:-1 tvg-id="geTV.br" tvg-logo="https://i.imgur.com/1XnP5i4.png" group-title="Brasil/YouTube",ge tv
+https://www.youtube.com/channel/UCgCKagVhzGnZcuP9bSMgMCg
+
+# --- Requested additions ---
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Kids/Disney",Disney Channel Latin America
+http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Kids/Disney",Disney Junior
+http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg" group-title="Kids/Disney",Disney XD
+http://40.160.24.52/DISNEY_XD_HD/index.m3u8
+
+#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music/Trace",Trace Urban
+https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceLatina.fr@SD" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="Music/Trace",Trace Latina
+https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@SD" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Sports/Trace",Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
+#EXTINF:-1 tvg-id="TraceGospel.fr@SD" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="Music/Trace",Trace Gospel Africa Franco
+https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
+
+#EXTINF:-1 tvg-id="DAZN5.uk@Portugal" tvg-logo="https://i.imgur.com/HD2XaeS.png" group-title="Sports/DAZN",DAZN 5
+http://znty.dyndns.org:5010/hls/eleven5.m3u8
+#EXTINF:-1 tvg-id="DAZNCombat.uk@SD" tvg-logo="https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png" group-title="Sports/DAZN",DAZN Combat
+https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8
+#EXTINF:-1 tvg-id="DAZNTV.uk@SD" tvg-logo="https://i.imgur.com/HD2XaeS.png" group-title="Sports/DAZN",DAZN TV
+https://jmp2.uk/plu-647f07e74cfc2c0008a2e557.m3u8
+#EXTINF:-1 tvg-id="DAZNRingside.uk@SD" tvg-logo="https://i.imgur.com/HD2XaeS.png" group-title="Sports/DAZN",DAZN Ringside
+https://jmp2.uk/plu-649b6898f2ec0000081a9460.m3u8
+
+#EXTINF:-1 tvg-id="AXN.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies/AXN",AXN
+http://45.190.28.50/AXN_HD/index.m3u8
+#EXTINF:-1 tvg-id="AXNMovies.pt@SD" tvg-logo="https://i.imgur.com/tJQckal.png" group-title="Movies/AXN",AXN Movies
+http://50.7.120.34:8080/AXN_BLACK/index.m3u8
+#EXTINF:-1 tvg-id="AXNWhite.us@Portugal" tvg-logo="https://i.imgur.com/47IKxmt.png" group-title="Movies/AXN",AXN White Portugal
+http://50.7.120.34:8080/AXN_WHITE/index.m3u8
+
+#EXTINF:-1 tvg-id="TNT.ru@HD" tvg-logo="https://i.imgur.com/T4A6rEI.png" group-title="Movies/TNT",TNT HD
+http://45.153.24.78:80/TNT/index.m3u8
+#EXTINF:-1 tvg-id="TNTNovelas.br@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png" group-title="Series/TNT",TNT Novelas Brazil
+http://45.162.64.114/TNT_NOVELAS/index.m3u8
+
+#EXTINF:-1 tvg-id="BollywoodClassic.ro@HD" tvg-logo="https://i.imgur.com/ugPo6ca.png" group-title="Movies/Bollywood",Bollywood Classic
+https://aes.m3u8simplu.workers.dev/bollywood/index.m3u8
+#EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="Movies/Bollywood",Goldmines Bollywood
+http://103.175.73.12:8080/live/52/52_0.m3u8
+#EXTINF:-1 tvg-id="MBCBollywood.ae@SD" tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="Movies/Bollywood",MBC Bollywood
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
+#EXTINF:-1 tvg-id="ShemarooBollywood.us@SD" tvg-logo="https://i.imgur.com/TFxLj80.png" group-title="Movies/Bollywood",Shemaroo Bollywood
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
