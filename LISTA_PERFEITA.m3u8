@@ -1552,6 +1552,12 @@ https://rpn.bozztv.com/gusa/gusa-tvshollywoohistory/index.m3u8
 #EXTINF:-1 tvg-id="ForensicFiles.us@SD" tvg-logo="https://i.imgur.com/V5vvuLK.png" group-title="Portugal/Documentary",Forensic Files
 https://jmp2.uk/plu-62e92392a3e6270007f562e8.m3u8
 
+# --- Brazil/Sports ---
+#EXTINF:-1 group-title="Brazil/Sports",CazéTV
+https://www.youtube.com/cazetv
+#EXTINF:-1 group-title="Brazil/Sports",Globoplay - sportv
+https://globoplay.globo.com/categorias/sportv/
+
 # --- Brazil/News ---
 #EXTINF:-1 tvg-id="PlutoTVRecordNews.us@BR" tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/colorLogoPNG.png" group-title="Brazil/News",Pluto TV Record News
 https://jmp2.uk/plu-6102e04e9ab1db0007a980a1.m3u8
@@ -1573,6 +1579,8 @@ https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8
 https://jmp2.uk/plu-67f3eb800a1beb98767ca748.m3u8
 
 # --- Brazil/Sports ---
+#EXTINF:-1 group-title="Brazil/Sports",TNT Sports Brasil
+https://www.youtube.com/channel/UCs-6sCz2LJm1PrWQN4ErsPw
 #EXTINF:-1 tvg-id="CazeTV.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Caz%C3%A9TV_logo.svg/1280px-Caz%C3%A9TV_logo.svg.png" group-title="Brazil/Sports",CazeTV
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
 
@@ -1584,14 +1592,30 @@ http://45.162.64.114/TNT_NOVELAS/index.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="International/Sports",Trace Sport Stars Russia
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 
+# --- Brazil/Sports ---
+#EXTINF:-1 group-title="Brazil/Sports",CBF TV
+https://www.youtube.com/channel/UCSCfyR5KTOPhjkp1DwQsKGw
+#EXTINF:-1 group-title="Brazil/Sports",ge tv
+https://www.youtube.com/channel/UCgCKagVhzGnZcuP9bSMgMCg
+
 # --- International/Movies ---
 #EXTINF:-1 tvg-id="PlutoTV90sClassics.de@FR" tvg-logo="https://images.pluto.tv/channels/66b4990746762a00084c2f78/colorLogoPNG.png" group-title="International/Movies",Pluto TV 90's Classics
 https://jmp2.uk/plu-66b4990746762a00084c2f78.m3u8
 
 # --- Brazil/Sports ---
+#EXTINF:-1 group-title="Brazil/Sports",TV Brasil
+https://tvbrasil.ebc.com.br/
+#EXTINF:-1 group-title="Brazil/Sports",TV Brasil - Ao Vivo
+https://tvbrasil.ebc.com.br/tags/ao-vivo
+#EXTINF:-1 group-title="Brazil/Sports",TV Brasil - Brasileirão Série B 2024
+https://tvbrasil.ebc.com.br/brasileirao-serie-b/2024/04/brasileirao-serie-b-2024-assista-ao-vivo-na-tv-brasil
+#EXTINF:-1 group-title="Brazil/Sports",TV Brasil - Brasileirão Série D
+https://tvbrasil.ebc.com.br/brasileiraoseried
 #EXTINF:-1 tvg-id="BandSports.br@SD" tvg-logo="https://i.imgur.com/EuPvzJe.png" group-title="Brazil/Sports",Band Sports
 #EXTVLCOPT:iptv-checker-audio-only=1
 http://143.14.178.40:7777/Band_Sports_HD/index.m3u8
+#EXTINF:-1 group-title="Brazil/Sports",Globoplay - Campeonato Brasileiro
+https://globoplay.globo.com/categorias/campeonato-brasileiro/
 
 # --- Brazil/Series ---
 #EXTINF:-1 tvg-id="GloboplayNovelas.br@SD" tvg-logo="https://i.ibb.co/m5TBCDL2/Globoplay-Novelas-1.png" group-title="Brazil/Series",Globoplay Novelas
@@ -2195,6 +2219,10 @@ https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@Brazil" tvg-logo="https://i.imgur.com/WxLHBwu.png" group-title="Brazil/Kids",Babyfirst
 https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
 
+# --- Brazil/Sports ---
+#EXTINF:-1 group-title="Brazil/Sports",Band Ao Vivo
+https://www.band.uol.com.br/ao-vivo
+
 # --- International/Music ---
 #EXTINF:-1 tvg-id="BeachTVMyrtleBeachTheGrandStrand.us@SD" tvg-logo="https://i.imgur.com/aLYz7Bv.png" group-title="International/Music",Beach TV Myrtle Beach & The Grand Strand
 http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
@@ -2226,6 +2254,12 @@ https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8
 # --- International/Movies ---
 #EXTINF:-1 tvg-id="EbonyTVbyLionsgate.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/234d5377-ab07-41bf-acd6-34c17c1c051a/EbonyTV_Plex_Logo_Light_1500x1000.png" group-title="International/Movies",Ebony TV by Lionsgate
 https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
+
+# --- Brazil/Sports ---
+#EXTINF:-1 group-title="Brazil/Sports",Esportes Band
+https://esporte.band.uol.com.br/
+
+# --- International/Movies ---
 #EXTINF:-1 group-title="International/Movies",FilmRise Séries France
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883033
 #EXTINF:-1 tvg-id="KBPXLD465.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/GEB_logo_blue.png/960px-GEB_logo_blue.png" group-title="International/Movies",Geb Tv (KBPX LD5)
@@ -2538,32 +2572,3 @@ https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.
 # --- International/Movies ---
 #EXTINF:-1 group-title="International/Movies",AMC Reality
 https://c9672376.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9BTUNSZWFsaXR5X0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="AmediaHit.ru@SD" tvg-logo="https://i.imgur.com/a8ZBGBw.png" group-title="International/Movies",Amedia Hit
-http://stream.mcquack.net/162/index.m3u8
-#EXTINF:-1 tvg-id="AmediaPremium.ru@SD" tvg-logo="https://i.imgur.com/UUjehw9.png" group-title="International/Movies",Amedia Premium
-http://31.148.48.15/Amedia_Premium_HD/index.m3u8
-#EXTINF:-1 tvg-id="Aqlvoy.uz@SD" tvg-logo="https://i.imgur.com/ekF5cAi.png" group-title="International/Movies",Aqlvoy
-https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
-
-# --- International/Kids ---
-#EXTINF:-1 tvg-id="Avatar.de@GB" tvg-logo="https://images.pluto.tv/channels/656df599c0fc8800089c75ab/colorLogoPNG.png" group-title="International/Kids",Avatar
-https://jmp2.uk/plu-656df599c0fc8800089c75ab.m3u8
-#EXTINF:-1 tvg-id="Avatar.se@DK" tvg-logo="https://images.pluto.tv/channels/61c09b48d6d97900076e91c5/colorLogoPNG.png" group-title="International/Kids",Avatar
-https://jmp2.uk/plu-61c09b48d6d97900076e91c5.m3u8
-
-# --- International/Movies ---
-#EXTINF:-1 tvg-id="BattlestarGalactica.us@SD" tvg-logo="https://images.pluto.tv/channels/69d7ebff029c431826bd328e/colorLogoPNG_1776982986391.png" group-title="International/Movies",Battlestar Galactica
-https://jmp2.uk/plu-69d7ebff029c431826bd328e.m3u8
-#EXTINF:-1 tvg-id="Bolajon.uz@SD" tvg-logo="https://i.imgur.com/s7o0ifu.png" group-title="International/Movies",Bolajon
-https://stream8.cinerama.uz/1007/playlist.m3u8
-#EXTINF:-1 tvg-id="Bolt.ru@SD" tvg-logo="https://i.imgur.com/YdIHXOR.png" group-title="International/Movies",Bolt
-http://hls127.freeott.top:8080/Bolt/video.m3u8
-#EXTINF:-1 tvg-id="Bolt.ua@SD" tvg-logo="https://i.imgur.com/YdIHXOR.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="International/Movies",Bolt
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://stream.mcquack.net/73/index.m3u8
-#EXTINF:-1 tvg-id="Bonanza.us@CA" tvg-logo="https://images.pluto.tv/channels/696e647b07ea70192d49f6a5/colorLogoPNG_1768842647658.png" group-title="International/Movies",Bonanza
-https://jmp2.uk/plu-696e647b07ea70192d49f6a5.m3u8
-#EXTINF:-1 tvg-id="Bonanza.us@SD" tvg-logo="https://images.pluto.tv/channels/696e647b07ea70192d49f6a5/colorLogoPNG_1768842647658.png" group-title="International/Movies",Bonanza
-https://jmp2.uk/plu-68e9913c4a666b9054849832.m3u8
-#EXTINF:-1 tvg-id="BTNTV.kr@SD" tvg-logo="https://i.imgur.com/sOoS7RQ.png" group-title="International/Movies",BTN TV
-https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8

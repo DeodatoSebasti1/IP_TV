@@ -6,8 +6,9 @@ import path from 'node:path';
 
 const repoRoot = process.cwd();
 const sourcePath = path.resolve(repoRoot, process.argv[2] || '../FILL.m3u8');
-const playlistOutPath = path.resolve(repoRoot, process.argv[3] || 'LISTA_PERFEITA.m3u8');
-const dataOutPath = path.resolve(repoRoot, process.argv[4] || 'LISTA_PERFEITA.json');
+const extraSourcePath = path.resolve(repoRoot, process.argv[3] || 'canais-brasil-futebol.m3u');
+const playlistOutPath = path.resolve(repoRoot, process.argv[4] || 'LISTA_PERFEITA.m3u8');
+const dataOutPath = path.resolve(repoRoot, process.argv[5] || 'LISTA_PERFEITA.json');
 
 const TARGET_COUNT = 1100;
 
@@ -227,7 +228,7 @@ function resolvePlayableUrl(url) {
     const output = execFileSync(
       'yt-dlp',
       ['-g', '--no-playlist', '--no-warnings', '-f', 'best[protocol^=m3u8]/best', url],
-      { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] },
+      { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], timeout: 10000 },
     ).trim();
 
     const candidate = output.split(/\r?\n/).find((line) => /^https?:\/\//i.test(line));
@@ -568,12 +569,16 @@ function buildInteractiveHtml(data) {
 
 async function main() {
   const sourceText = await readFile(sourcePath, 'utf8');
-  const parsed = parsePlaylist(sourceText).map((item) => {
+  const extraSourceText = await readFile(extraSourcePath, 'utf8');
+  const parsed = [
+    ...parsePlaylist(sourceText).map((item) => ({ ...item, sourceGroup: 'main' })),
+    ...parsePlaylist(extraSourceText).map((item) => ({ ...item, sourceGroup: 'football' })),
+  ].map((item) => {
     const playableUrl = resolvePlayableUrl(item.url);
     return classify({
       ...item,
       playableUrl,
-      isPlayable: !isYouTubeUrl(item.url) || playableUrl !== item.url,
+      isPlayable: !isYouTubeUrl(item.url) || playableUrl !== item.url || item.sourceGroup === 'football',
     });
   });
 
@@ -594,6 +599,7 @@ async function main() {
   const data = {
     generatedAt: new Date().toISOString(),
     sourcePath,
+    extraSourcePath,
     totalSourceEntries: parsed.length,
     selectedCount: ordered.length,
     sections: [...new Set(ordered.map((item) => item.section))],
